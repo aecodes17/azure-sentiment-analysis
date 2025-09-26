@@ -42,9 +42,6 @@ The model classifies text as **positive**, **negative**, **neutral**, or **mixed
 └── README.md # Project documentation
 
 
-
----
-
 ## ✅ Example Output (Positive)
 
 ```json
@@ -57,28 +54,20 @@ The model classifies text as **positive**, **negative**, **neutral**, or **mixed
     "negative": 0.01
   }
 }
-
-
+```
 🚀 How to Reproduce
 
 Create an Azure AI Language resource in the Azure Portal
-.
-
 Open Language Studio
-.
-
 Select your resource → choose Sentiment Analysis.
-
 Paste text → Run → Export results as JSON.
 
 💡 What I Learned
 
 How to deploy and use Azure AI Language services.
-
 That I only needed to create one resource (Azure AI Language) for this project — not multiple resources.
-
 How to use Language Studio to test AI models without writing code.
-
 How to interpret AI outputs like confidence scores and understand what they mean.
+How to document results in JSON and organize them in a GitHub repository.
 
 How to document results in JSON and organize them in a GitHub repository.
