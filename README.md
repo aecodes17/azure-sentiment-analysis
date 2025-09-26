@@ -20,17 +20,17 @@ The model classifies text as **positive**, **negative**, **neutral**, or **mixed
 1. **Positive Example**  
    *Input:*  
    > "I absolutely love this product! The setup was easy and the results are amazing."  
-   *Output:* [positive.json](positive.json)
+   *Output:* [positive.json](Positive.json)
 
 2. **Negative Example**  
    *Input:*  
    > "This service is a waste of time. It constantly fails and support never responds."  
-   *Output:* [negative.json](negative.json)
+   *Output:* [negative.json](Negative.json)
 
 3. **Mixed Example**  
    *Input:*  
    > "The instructions were confusing at first, but once I figured them out, the process was simple and smooth."  
-   *Output:* [mixed.json](mixed.json)
+   *Output:* [mixed.json](Mixed.json)
 
 ---
 
