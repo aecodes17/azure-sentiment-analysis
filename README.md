@@ -32,14 +32,6 @@ The model classifies text as **positive**, **negative**, **neutral**, or **mixed
    > "The instructions were confusing at first, but once I figured them out, the process was simple and smooth."  
    *Output:* [mixed.json](Mixed.json)
 
----
-
-## 📂 Repository Structure
-
-├── positive.json # Sentiment output for positive text
-├── negative.json # Sentiment output for negative text
-├── mixed.json # Sentiment output for mixed text
-└── README.md # Project documentation
 
 
 ## ✅ Example Output (Positive)
@@ -55,19 +47,17 @@ The model classifies text as **positive**, **negative**, **neutral**, or **mixed
   }
 }
 ```
-🚀 How to Reproduce
+## 🚀 How to Reproduce
+- Create an **Azure AI Language resource** in the [Azure Portal](https://portal.azure.com).  
+- Open **[Language Studio](https://language.cognitive.azure.com/)**.  
+- Select your resource → choose **Sentiment Analysis**.  
+- Paste text → Run → Export results as JSON.  
 
-Create an Azure AI Language resource in the Azure Portal
-Open Language Studio
-Select your resource → choose Sentiment Analysis.
-Paste text → Run → Export results as JSON.
+---
 
-💡 What I Learned
-
-How to deploy and use Azure AI Language services.
-That I only needed to create one resource (Azure AI Language) for this project — not multiple resources.
-How to use Language Studio to test AI models without writing code.
-How to interpret AI outputs like confidence scores and understand what they mean.
-How to document results in JSON and organize them in a GitHub repository.
-
-How to document results in JSON and organize them in a GitHub repository.
+## 💡 What I Learned
+- Deployed and used **Azure AI Language services** for the first time.  
+- Learned that only **one resource (Azure AI Language)** was needed — not multiple resources.  
+- Explored **Language Studio** as a no-code environment for testing AI models.  
+- Interpreted **confidence scores** and how Azure AI evaluates sentiment.  
+- Practiced documenting results in **JSON format** and organizing them in a GitHub repository.  
